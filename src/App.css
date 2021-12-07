@@ -1,0 +1,31 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dad
+{
+    @apply text-white;  
+}
+
+.menubar 
+{   
+}
+
+.imenu
+{ 
+    transition: all 0.4s ease-in-out;
+    @apply text-2xl hover:text-gray-300 cursor-pointer float-right;  
+} 
+
+.div1 
+{
+    @apply h-screen;
+}
+
+.iflecha
+{
+    @apply hidden text-black text-2xl;
+    z-index: 100;
+}
